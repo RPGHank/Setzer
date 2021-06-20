@@ -15,5 +15,6 @@ jobs:
     - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v3
       with:
         bundle: palette.flatpak
-        manifest-path: org.gnome.zbrown.Palette.yml
+        manifest-path: org.cvfosammmm.Setzer.json
+        run-tests: true
         cache-key: flatpak-builder-${{ github.sha }}
