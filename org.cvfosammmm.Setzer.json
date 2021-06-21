@@ -58,6 +58,10 @@
                 {
                     "type": "shell",
                     "commands": ["7z x texlive.iso"]
+                },
+                {
+                    "type": "patch",
+                    "path" : "p7zip-gcc10.patch"
                 }
             ],
             "build-commands": [
